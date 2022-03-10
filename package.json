@@ -1,0 +1,20 @@
+{
+  "name": "akorda-assembly-reference-implementation",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "./start.sh && DEBUG=web-server:* node ./bin/www"
+  },
+  "dependencies": {
+    "@akordacorp/assembly": "^1.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "helmet": "^5.0.1",
+    "http-errors": "~1.6.3",
+    "http-proxy-middleware": "^2.0.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "~2.6.7"
+  }
+}
